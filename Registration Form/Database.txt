@@ -1,0 +1,12 @@
+
+CREATE TABLE students (
+    SIC VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100),
+    address VARCHAR(255),
+    gender VARCHAR(10),
+    branch VARCHAR(50),
+    year_of_admission INT,
+    birth_date DATE,
+    section VARCHAR(10),
+    class_roll_number INT
+);
